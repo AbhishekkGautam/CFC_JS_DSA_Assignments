@@ -1,6 +1,6 @@
 let readlineSync = require("readline-sync");
 
-let credits = readlineSync.question("Enter your credit scrore. ");
+let credits = readlineSync.question("Enter your credit scrore - ");
 
 if (credits >= 7500) {
   console.log("Congrats! You earned TERA LEADER badge.");
